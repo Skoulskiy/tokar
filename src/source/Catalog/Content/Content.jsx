@@ -162,7 +162,7 @@ const Content = ({ language, openFailedModal }) => {
       <div className="container">
         <p className={styles['navigation']}>
           <span style={{ cursor: "pointer" }}>
-            <Link to="/" style={{ color: "rgba(130, 130, 130, 1)" }}>{translations[language].mainPage}</Link>
+            <Link to="/tokar/" style={{ color: "rgba(130, 130, 130, 1)" }}>{translations[language].mainPage}</Link>
           </span> / <span>{translations[language].residential}</span>
         </p>
         <div className={styles['catalog-top']}>

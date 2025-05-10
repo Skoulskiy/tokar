@@ -109,7 +109,7 @@ const Footer = ({ language, openFailedModal }) => {
         <div ref={navRef} className={styles['footer-navigation']}>
           <div className={styles['footer-navbar']}>
             <div className={styles['footer-navbar__navigate']}>
-              <span className={styles['footer-navbar__navigate-btn']}><Link to="/catalog" style={{color: "#fff"}}>{translations[language].residential}</Link></span>
+              <span className={styles['footer-navbar__navigate-btn']}><Link to="/tokar/catalog" style={{color: "#fff"}}>{translations[language].residential}</Link></span>
               <span className={styles['footer-navbar__navigate-btn']} onClick={openFailedModal}>{translations[language].commercial}</span>
               <span className={styles['footer-navbar__navigate-btn']} onClick={openFailedModal}>{translations[language].garden}</span>
             </div>

@@ -120,7 +120,7 @@ const Header = ({ language, setLanguage, openFailedModal }) => {
           <div className={styles['header-navbar']}>
             <div className={styles['header-navbar__navigate']}>
               <span className={styles['header-navbar__navigate-btn']}>
-                <Link to="/catalog" style={{color: '#fff'}}>{translations[language].residential}</Link>
+                <Link to="/tokar/catalog" style={{color: '#fff'}}>{translations[language].residential}</Link>
               </span>
               <span className={styles['header-navbar__navigate-btn']} onClick={openFailedModal}>
                 {translations[language].commercial}

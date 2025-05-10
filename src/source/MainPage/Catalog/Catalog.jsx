@@ -65,7 +65,7 @@ const Catalog = ({ language = 'en', openFailedModal }) => {
                     <div>
                       <h3>{translations[selectedLanguage][item.section]}</h3>
                       <p>{translations[selectedLanguage][item.desc]}</p>
-                       <Link to="/catalog"><a className={styles['catalog-btn']} >
+                       <Link to="/tokar/catalog"><a className={styles['catalog-btn']} >
                         <img src="./assets/images/right-arrow.png" alt="right-arrow" />
                         {translations[selectedLanguage].aboutBtn}
                       </a></Link>
@@ -86,7 +86,7 @@ const Catalog = ({ language = 'en', openFailedModal }) => {
                     />
                     <h3>{translations[selectedLanguage][item.section]}</h3>
                     <p>{translations[selectedLanguage][item.desc]}</p>
-                    <Link to="/catalog"><a className={styles['catalog-btn']} >
+                    <Link to="/tokar/catalog"><a className={styles['catalog-btn']} >
                         <img src="./assets/images/right-arrow.png" alt="right-arrow" />
                         {translations[selectedLanguage].aboutBtn}
                       </a></Link>

@@ -36,11 +36,11 @@ const ConstructionSecrets = ({ language = 'en', openFailedModal }) => {
   const [currentSlider, setCurrentSlider] = useState(1);
   const selectedLanguage = translations[language] ? language : 'en';
   const slides = [
-    '/assets/images/slider1.png',
-    '/assets/images/slider2.png',
-    '/assets/images/slider3.png',
-    '/assets/images/slider4.png',
-    '/assets/images/slider5.png',
+    './assets/images/slider1.png',
+    './assets/images/slider2.png',
+    './assets/images/slider3.png',
+    './assets/images/slider4.png',
+    './assets/images/slider5.png',
   ];
 
   const [titleRef, titleInView] = useInView({ triggerOnce: true, threshold: 0.2 });
@@ -57,10 +57,10 @@ const ConstructionSecrets = ({ language = 'en', openFailedModal }) => {
   };
 
   const items = [
-    { title: translations[selectedLanguage].itemTitleFirst, subtitle: translations[selectedLanguage].itemSubTitleFirst, numberImage: '/assets/images/01.png', img: "/assets/images/secrets1.png" },
-    { title: translations[selectedLanguage].itemTitleSecond, subtitle: translations[selectedLanguage].itemSubTitleSecond, numberImage: '/assets/images/02.png', img: "/assets/images/secrets2.png" },
-    { title: translations[selectedLanguage].itemTitleThird, subtitle: translations[selectedLanguage].itemSubTitleThird, numberImage: '/assets/images/03.png', img: "/assets/images/secrets3.png" },
-    { title: translations[selectedLanguage].itemTitleFourth, subtitle: translations[selectedLanguage].itemSubTitleFourth, numberImage: '/assets/images/04.png', img: "/assets/images/secrets4.png" },
+    { title: translations[selectedLanguage].itemTitleFirst, subtitle: translations[selectedLanguage].itemSubTitleFirst, numberImage: './assets/images/01.png', img: "./assets/images/secrets1.png" },
+    { title: translations[selectedLanguage].itemTitleSecond, subtitle: translations[selectedLanguage].itemSubTitleSecond, numberImage: './assets/images/02.png', img: "./assets/images/secrets2.png" },
+    { title: translations[selectedLanguage].itemTitleThird, subtitle: translations[selectedLanguage].itemSubTitleThird, numberImage: './assets/images/03.png', img: "./assets/images/secrets3.png" },
+    { title: translations[selectedLanguage].itemTitleFourth, subtitle: translations[selectedLanguage].itemSubTitleFourth, numberImage: './assets/images/04.png', img: "./assets/images/secrets4.png" },
   ];
 
   const groupedItems = [
@@ -113,11 +113,11 @@ const ConstructionSecrets = ({ language = 'en', openFailedModal }) => {
           />
           <div className={styles['slider-btns']}>
             <a onClick={handlePrev} aria-label="Previous slide">
-              <img src="/assets/images/arr-left.png" alt="Previous" />
+              <img src="./assets/images/arr-left.png" alt="Previous" />
             </a>
             <span>{currentSlider}/5</span>
             <a onClick={handleNext} aria-label="Next slide">
-              <img src="/assets/images/arr-right.png" alt="Next" />
+              <img src="./assets/images/arr-right.png" alt="Next" />
             </a>
           </div>
         </div>
@@ -125,13 +125,13 @@ const ConstructionSecrets = ({ language = 'en', openFailedModal }) => {
           ref={buttonsRef}
           className={`${styles['sliders-btns']} ${buttonsInView ? styles['fade-in'] : ''}`}
         >
-          <Link to="/catalog">
+          <Link to="/tokar/catalog">
           <a className={styles['sliders-btns__first']}>
             {translations[selectedLanguage].slidersBtnFirst}
           </a>
           </Link>
           <a className={styles['sliders-btns__second']} onClick={openFailedModal}>
-            <img src="/assets/images/right-arrow.png" alt="arrow" />
+            <img src="./assets/images/right-arrow.png" alt="arrow" />
             {translations[selectedLanguage].slidersBtnSecond}
           </a>
         </div>

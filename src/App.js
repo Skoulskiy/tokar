@@ -17,11 +17,11 @@ function App() {
       <div className="App">
         <Routes>
           <Route
-            path="/"
+            path="/tokar"
             element={<MainPage language={language} setLanguage={setLanguage} openFailedModal={openFailedModal} />}
           />
           <Route
-            path="/catalog"
+            path="/tokar/catalog"
             element={<Catalog language={language} openFailedModal={openFailedModal} setLanguage={setLanguage} />}
           />
           <Route path="*" element={<NotFound language={language} />} />

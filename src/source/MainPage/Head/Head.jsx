@@ -151,7 +151,7 @@ export const Head = ({ language, setLanguage, openFailedModal }) => {
                 <div className={styles['header-navigation']} ref={navRef}>
                     <div className={styles['header-navbar']}>
                         <div className={styles['header-navbar__navigate']}>
-                            <span className={styles['header-navbar__navigate-btn']}><Link to="/catalog" style={{color: "#fff"}}>{translations[language].residential}</Link></span>
+                            <span className={styles['header-navbar__navigate-btn']}><Link to="/tokar/catalog" style={{color: "#fff"}}>{translations[language].residential}</Link></span>
                             <span className={styles['header-navbar__navigate-btn']} onClick={openFailedModal}>{translations[language].commercial}</span>
                             <span className={styles['header-navbar__navigate-btn']} onClick={openFailedModal}>{translations[language].garden}</span>
                         </div>
@@ -167,7 +167,7 @@ export const Head = ({ language, setLanguage, openFailedModal }) => {
                         <h1 className={styles['header-about__title']}>{translations[language].aboutTitle}</h1>
                         <span className={styles['header-about__subtitle']}>{translations[language].aboustSubtitle}</span>
                         <div className={styles['header-about__buttons']}>
-                            <Link to="/catalog"><a className={styles['header-about__btn-first']}>{translations[language].aboutBtnFirst}</a></Link>
+                            <Link to="/tokar/catalog"><a className={styles['header-about__btn-first']}>{translations[language].aboutBtnFirst}</a></Link>
                             <a className={styles['header-about__btn-second']} onClick={openFailedModal}>
                                 <img src='./assets/images/right-arrow.png' alt='right-arrow'/>
                                 {translations[language].aboutBtnSecond}
