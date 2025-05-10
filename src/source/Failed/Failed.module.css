@@ -1,0 +1,153 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-backdrop.open {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.modal-backdrop.close {
+  animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0 40px 0 40px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(0.7);
+  opacity: 0;
+}
+
+.modal-content.open {
+  animation: scaleIn 0.3s ease-in-out forwards;
+}
+
+.modal-content.close {
+  animation: scaleOut 0.3s ease-in-out forwards;
+}
+
+.modal-content img {
+  width: 50px;
+}
+
+.modal-content p {
+  font-family: 'gilroy-regular', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.close-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'gilroy-regular', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.close-button:hover {
+  background-color: #cc0000;
+}
+
+@keyframes fadeIn {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .modal-content {
+    max-width: 85%;
+    padding: 1.5rem;
+    border-radius: 0 20px 0 20px;
+  }
+
+  .modal-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .modal-content img {
+    width: 40px;
+  }
+
+  .close-button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .modal-content {
+    padding: 1rem;
+  }
+
+  .modal-content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .close-button {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}

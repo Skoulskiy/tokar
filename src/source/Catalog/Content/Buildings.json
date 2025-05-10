@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/images/buildings1.png",
+    "title": "Variant Z-65 «Bavaria»",
+    "properties": [
+      "7,5х9",
+      "135"
+    ],
+    "price": 1000000,
+    "popularity": 75
+  },
+  {
+    "id": 2,
+    "image": "./assets/images/buildings2.png",
+    "title": "Variant ST-56 «Barcelona»",
+    "properties": [
+      "8х10",
+      "150"
+    ],
+    "price": 1200000,
+    "popularity": 90
+  },
+  {
+    "id": 3,
+    "image": "./assets/images/building3.png",
+    "title": "Variant K-22 «Vienna»",
+    "properties": [
+      "6х8",
+      "120"
+    ],
+    "price": 950000,
+    "popularity": 60
+  },
+  {
+    "id": 4,
+    "image": "./assets/images/building4.png",
+    "title": "Variant M-78 «Madrid»",
+    "properties": [
+      "9х11",
+      "180"
+    ],
+    "price": 1500000,
+    "popularity": 85
+  },
+  {
+    "id": 5,
+    "image": "./assets/images/building5.png",
+    "title": "Variant P-33 «Paris»",
+    "properties": [
+      "7х9",
+      "130"
+    ],
+    "price": 1100000,
+    "popularity": 70
+  },
+  {
+    "id": 6,
+    "image": "./assets/images/building6.png",
+    "title": "Variant L-44 «Lisbon»",
+    "properties": [
+      "8х12",
+      "170"
+    ],
+    "price": 1400000,
+    "popularity": 80
+  },
+  {
+    "id": 7,
+    "image": "./assets/images/building7.png",
+    "title": "Variant R-19 «Rome»",
+    "properties": [
+      "6,5х8",
+      "125"
+    ],
+    "price": 980000,
+    "popularity": 65
+  },
+  {
+    "id": 8,
+    "image": "./assets/images/building8.png",
+    "title": "Variant A-88 «Athens»",
+    "properties": [
+      "9х10",
+      "165"
+    ],
+    "price": 1350000,
+    "popularity": 88
+  },
+  {
+    "id": 9,
+    "image": "./assets/images/building9.png",
+    "title": "Variant D-55 «Dublin»",
+    "properties": [
+      "7х10",
+      "140"
+    ],
+    "price": 1150000,
+    "popularity": 72
+  },
+  {
+    "id": 10,
+    "image": "./assets/images/building10.png",
+    "title": "Variant S-66 «Stockholm»",
+    "properties": [
+      "8х11",
+      "160"
+    ],
+    "price": 1300000,
+    "popularity": 82
+  },
+  {
+    "id": 11,
+    "image": "./assets/images/building11.png",
+    "title": "Variant H-77 «Helsinki»",
+    "properties": [
+      "6х9",
+      "115"
+    ],
+    "price": 920000,
+    "popularity": 55
+  },
+  {
+    "id": 12,
+    "image": "./assets/images/building12.png",
+    "title": "Variant O-99 «Oslo»",
+    "properties": [
+      "9х12",
+      "190"
+    ],
+    "price": 1600000,
+    "popularity": 95
+  }
+]

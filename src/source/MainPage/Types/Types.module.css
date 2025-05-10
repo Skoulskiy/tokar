@@ -1,0 +1,118 @@
+.types {
+    padding: clamp(80px, 10vw, 145px) 0;
+    background: rgba(255, 251, 246, 1);
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .types.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .title {
+    color: rgba(43, 42, 40, 1);
+    font-family: 'gilroy-bold';
+    font-weight: 700;
+    line-height: clamp(32px, 5vw, 48px);
+    letter-spacing: 0;
+    font-size: clamp(24px, 4vw, 36px);
+    width: clamp(50%, 35%, 400px);
+    padding-bottom: clamp(20px, 4vw, 40px);
+  }
+  
+  .type-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .type-item {
+    height: 650px;
+    width: clamp(300px, 30vw, 370px);
+    background: rgba(255, 255, 255, 1);
+    border-start-end-radius: 40px;
+    padding: 5px;
+    box-shadow: 0 0 20px 0 rgba(43, 42, 40, 0.08);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .type-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .type-item__title {
+    margin-top: 36px;
+    font-family: 'gilroy-regular';
+    font-size: clamp(24px, 3vw, 30px);
+    line-height: clamp(24px, 3vw, 30px);
+    letter-spacing: 0;
+    color: rgba(43, 42, 40, 1);
+    padding: 0 40px;
+  }
+  
+  .type-item__list {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 40px;
+  }
+  
+  .type-item__list-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: 'gilroy-light';
+    font-size: clamp(14px, 2vw, 15px);
+    line-height: clamp(18px, 2.5vw, 22px);
+    letter-spacing: 0;
+    color: rgba(43, 42, 40, 1);
+  }
+  
+
+  @media (max-width: 1280px) {
+        .type-item {
+            height: auto;
+        }
+    }
+  
+  @media (max-width: 768px) {
+    .types {
+      padding: clamp(50px, 15vw, 80px) 5%;
+    }
+  
+    .title {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .type-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .type-item {
+      width: 90%;
+      max-width: 400px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .type-item__title {
+      padding: 0 20px;
+    }
+  
+    .type-item__list {
+      padding: 0 20px;
+    }
+  }
