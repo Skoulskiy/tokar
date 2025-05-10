@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tokar/static/css/main.50dd06dd.css",
+    "main.js": "/tokar/static/js/main.52fa7b86.js",
+    "index.html": "/tokar/index.html",
+    "main.50dd06dd.css.map": "/tokar/static/css/main.50dd06dd.css.map",
+    "main.52fa7b86.js.map": "/tokar/static/js/main.52fa7b86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50dd06dd.css",
+    "static/js/main.52fa7b86.js"
+  ]
+}
