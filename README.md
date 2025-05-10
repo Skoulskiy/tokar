@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+Project Description: Residential Buildings Catalog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application built to serve as a catalog for residential buildings, allowing users to browse, filter, and sort various types of homes based on criteria like price, area, and popularity. The app supports two languages (English and Ukrainian) and features a responsive design to ensure usability across different devices.
 
-## Available Scripts
+Features
+Homepage (/): Displays a welcoming interface (to be implemented).
+Catalog (/catalog): A fully functional page where users can:
+Search for buildings by title.
+Filter buildings by area and price using sliders.
+Sort buildings by alphabet, price, or popularity.
+View building details such as dimensions, area, and price.
+Switch between English and Ukrainian languages for a localized experience.
+Responsive Design: The layout adapts seamlessly for desktop, tablet, and mobile devices.
 
-In the project directory, you can run:
+Demo
 
-### `npm start`
+You can explore the live demo of the project here: https://skoulskiy.github.io/tokar/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+About Me
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Hi! I'm a 16-year-old aspiring developer practicing my skills in web development. This project is part of my journey to learn and improve my frontend development abilities. I’m passionate about creating user-friendly applications and experimenting with new technologies. Feel free to check out my work and share any feedback!
 
-### `npm test`
+Designed by:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.figma.com/design/D83YyEtaTyYbj5WL7ElKs8/Tokar-Mebel--?node-id=162-2960&t=7AsoBP0hlN5d5Dh5-0
