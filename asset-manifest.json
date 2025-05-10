@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tokar/static/css/main.50dd06dd.css",
-    "main.js": "/tokar/static/js/main.52fa7b86.js",
-    "index.html": "/tokar/index.html",
-    "main.50dd06dd.css.map": "/tokar/static/css/main.50dd06dd.css.map",
-    "main.52fa7b86.js.map": "/tokar/static/js/main.52fa7b86.js.map"
+    "main.css": "/static/css/main.50dd06dd.css",
+    "main.js": "/static/js/main.4eb57b5e.js",
+    "index.html": "/index.html",
+    "main.50dd06dd.css.map": "/static/css/main.50dd06dd.css.map",
+    "main.4eb57b5e.js.map": "/static/js/main.4eb57b5e.js.map"
   },
   "entrypoints": [
     "static/css/main.50dd06dd.css",
-    "static/js/main.52fa7b86.js"
+    "static/js/main.4eb57b5e.js"
   ]
 }
